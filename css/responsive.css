@@ -1,0 +1,351 @@
+/* LG Device */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .home .left h1 {
+        font-size: 48px;
+        padding: 60px 0 30px 0;
+    }
+
+    .home .right .home-info-item {
+        padding: 25px 25px 15px 25px;
+    }
+
+    .home .right .home-info-item p {
+        font-size: 15px;
+    }
+
+    .home .right .home-info-item i {
+        font-size: 20px;
+    }
+
+    .work .work-item span {
+        margin-top: -42%;
+    }
+
+    .agent .agent-details .social i {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+
+}
+
+
+/* MD Device */
+@media (min-width: 768px) and (max-width: 991px) {
+    .home .right {
+        height: 0;
+    }
+
+    .about .right {
+        margin-top: 18%;
+    }
+
+    .about .right .statistic-box {
+        height: 180px;
+    }
+
+    .search-box {
+        justify-content: end;
+    }
+
+    .search-box input[type="text"] {
+        width: 58%;
+    }
+
+    .search-box input {
+        padding: 20px 30px;
+    }
+
+    .work .work-item span {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .work .work-item {
+        margin-bottom: 6%;
+    }
+
+    .service .container>p {
+        margin: 20px 0 30px 0;
+    }
+
+    .service .left {
+        margin: 20px 0 40px 0;
+    }
+
+    footer .footer-top .left h3 br {
+        display: none;
+    }
+
+    footer .footer-top .right {
+        width: 153%;
+    }
+}
+
+/* small Device. */
+@media (max-width: 767px) {
+    .home .right {
+        height: 0;
+    }
+
+    .search-box {
+        justify-content: center;
+    }
+
+    .search-box input[type="text"] {
+        width: 58%;
+    }
+
+    .search-box input {
+        padding: 20px 30px;
+    }
+
+    .about .right {
+        margin-top: 18%;
+    }
+
+    .about .right .statistic-box {
+        height: 220px;
+    }
+
+    .home .right .home-info-item {
+        padding: 25px 25px 15px 25px;
+    }
+
+    .home .right .home-info-item p {
+        font-size: 15px;
+    }
+
+    .home .right .home-info-item i {
+        font-size: 20px;
+        padding-right: 12px;
+    }
+
+    .work .work-item span {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .work .work-item {
+        margin-bottom: 6%;
+    }
+
+    .service .container>p {
+        margin: 20px 0 30px 0;
+    }
+
+    .service .left {
+        margin: 20px 0 40px 0;
+    }
+
+    .agent .agent-info {
+        box-shadow: 0px 2px 12.5px rgba(23, 44, 51, 0.15);
+        margin-bottom: 30px;
+    }
+
+    .add .add-text-box {
+        height: 215px;
+    }
+
+    .add-text-box .inner-text {
+        padding-left: 0;
+        margin-top: 70px;
+    }
+
+    .add-text-box .add-02-inner-text {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .add-thmbnail-box {
+        margin-top: 75px;
+    }
+
+    .appartment .view-appartment-btn {
+        margin: 15px 0 0 0;
+    }
+
+    .appartment .view-all-appartment-btn-wrap {
+        flex-direction: column;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .appartment .view-all-appartment-btn-wrap .search-box {
+        justify-content: end;
+    }
+
+    footer .footer-top .left h3 br {
+        display: none;
+    }
+
+    footer .footer-top .right {
+        width: 153%;
+    }
+
+    footer .footer-top {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-top .left h3 {
+        margin-bottom: 25px;
+    }
+
+    footer .footer-top .right .search-box {
+        justify-content: center;
+    }
+
+    footer .footer-top .right {
+        width: 100%;
+    }
+
+    .footer-item {
+        margin-bottom: 60px;
+    }
+}
+
+/* =05= ==Extra Extra small Device.(iphone 5/SE) */
+@media (min-width: 300px) and (max-width: 512px) {
+    header {
+        padding: 10px 0;
+    }
+
+    header.sticky {
+        padding: 5px 0;
+    }
+
+    header .logo {
+        padding-top: 5px;
+    }
+
+    .home .left h1 {
+        font-size: 40px;
+        padding: 70px 0 30px 0;
+    }
+
+    .home .home-inner::before {
+        background-position: center;
+        width: 75%;
+        height: 560px;
+    }
+
+    .search-box input {
+        padding: 20px 15px;
+    }
+
+    .home .right .home-info-item {
+        padding: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home .left .slide-down {
+        display: none;
+    }
+
+    .home .left {
+        height: 560px;
+        position: relative;
+    }
+
+    .section-title {
+        font-size: 34px;
+        line-height: 45px;
+    }
+
+    .about {
+        margin: 15px 0 25px 0;
+    }
+
+    .about .left .section-title {
+        margin-bottom: 30px;
+    }
+
+    .about .right .statistic-box {
+        height: 160px;
+        margin-bottom: 15px;
+    }
+
+    .work {
+        margin: 50px 0;
+    }
+
+    .work .work-item span {
+        font-size: 100px;
+    }
+
+    .appartment .section-title {
+        margin-bottom: 15px;
+    }
+
+    .appartment {
+        padding: 45px 0;
+    }
+
+    .appartment .appartment-title {
+        font-size: 13px;
+    }
+
+    .service .service-item {
+        margin: 5px;
+    }
+
+    .agent {
+        padding: 60px 0 30px 0;
+    }
+
+    .agent .agent-details .meta>span {
+        font-size: 13px;
+    }
+
+    .agent .agent-details .social i {
+        font-size: 14px;
+        padding-left: 14px;
+    }
+
+    .add-text-box .inner-text {
+        margin-top: 160px;
+    }
+
+    .add {
+        background-color: #fff;
+        padding: 0 0 100px 0;
+    }
+
+    .add-thmbnail-box {
+        margin-top: 50px;
+    }
+
+    .add .add-information .location {
+        width: 100%;
+    }
+
+    footer {
+        padding: 40px 0 0 0;
+        margin-top: 40px;
+    }
+
+    footer .footer-top .right {
+        width: 125%;
+    }
+
+    footer .footer-bottom .logo {
+        font-size: 35px;
+    }
+
+    footer .footer-bottom {
+        padding-top: 40px;
+    }
+
+    .footer-item {
+        margin-bottom: 30px;
+    }
+
+    footer .footer-bottom .footer-item ul .item-title {
+        padding-bottom: 10px;
+    }
+
+    footer .footer-bottom .copyright {
+        padding: 15px 0;
+    }
+}
